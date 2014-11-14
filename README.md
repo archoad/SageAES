@@ -5,6 +5,7 @@ Implementation of AES with Sage.
 
 These programs need a correct installation of Sage (www.sagemath.org) to work.
 
+##sage_aes.py
 sage_aes.py compute the AES ciphering process from a plain text and a key. The result is as follow:
 
 $ ./sage_aes.py
@@ -13,7 +14,7 @@ Finite Field in a of size 2^8
 a^8 + a^4 + a^3 + a + 1
 a^6 + a^5 + a + 1
 
-#### key schedule ####
+key schedule
 key: 2b7e151628aed2a6abf7158809cf4f3c
 [                  a^5 + a^3 + a + 1                           a^5 + a^3             a^7 + a^5 + a^3 + a + 1                             a^3 + 1]
 [    a^6 + a^5 + a^4 + a^3 + a^2 + a           a^7 + a^5 + a^3 + a^2 + a a^7 + a^6 + a^5 + a^4 + a^2 + a + 1       a^7 + a^6 + a^3 + a^2 + a + 1]
@@ -75,7 +76,7 @@ key: 2b7e151628aed2a6abf7158809cf4f3c
  A8 89 C8 A6
 
 
-#### AES ciphering process ####
+AES ciphering process ####
 R[01].start   00102030405060708090A0B0C0D0E0F0
 R[01].s_box   63CAB7040953D051CD60E0E7BA70E18C
 R[01].s_row   6353E08C0960E104CD70B751BACAD0E7
