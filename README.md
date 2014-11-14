@@ -6,7 +6,7 @@ Implementation of AES with Sage.
 These programs need a correct installation of Sage (www.sagemath.org) to work.
 
 ##sage-aes.py
-sage_aes.py compute the AES ciphering process from a plain text and a key. The result is as follow:
+sage-aes.py computes the AES's ciphering process from a plain text and a key. The result is as follow:
 
 	SR*(10,4,4,8)
 	Finite Field in a of size 2^8
@@ -73,6 +73,6 @@ sage_aes.py compute the AES ciphering process from a plain text and a key. The r
 
 ##sage-aes-recover-stats.py
 
-
+sage-aes-recover-stats.py computes a configurable small variant of the AES's ciphering process from a plain text and a key. Then he recovers the key by using Gröbner basis and prints some stats on the calculus.
 
 
